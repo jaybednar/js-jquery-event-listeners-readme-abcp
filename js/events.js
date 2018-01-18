@@ -20,7 +20,7 @@ function submitIt(){
 
 function pressIt() {
   $('input').on('keydown', function() {
-    if ($( "input:first" ).val(number) === '71') {
+    if ($( "input:first" ).val() === '71') {
       alert('You entered g.');
     }
   });
