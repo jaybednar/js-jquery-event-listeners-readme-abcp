@@ -18,6 +18,10 @@ function submitIt(){
   });
 }
 
+function pressIt() {
+  
+}
+
 $(document).ready(function(){
 
 getIt();
