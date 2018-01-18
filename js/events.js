@@ -21,9 +21,9 @@ function submitIt(){
 function pressIt() {
   $('input').on('keydown', function() {
     if ($( "input:first" ).val() === 71) {
-      alert('You entered g.')
+      alert('You entered g.');
     }
-  })
+  });
 }
 
 $(document).ready(function(){
