@@ -20,7 +20,9 @@ function submitIt(){
 
 function pressIt() {
   $('input').on('keydown', function() {
-    if ($( "input:first" ).val() === "correct")
+    if ($( parseInt("input:first" )).val() === 71) {
+      alert('You entered g.')
+    }
   })
 }
 
