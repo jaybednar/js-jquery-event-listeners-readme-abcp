@@ -20,7 +20,7 @@ function submitIt(){
 
 function pressIt() {
   $('input').on('keydown', function() {
-    if ()
+    if ($( "input:first" ).val() === "correct")
   })
 }
 
